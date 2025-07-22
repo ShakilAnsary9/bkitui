@@ -1,0 +1,21 @@
+{
+  "name": "bkitui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss build.css -o css/bkitui/bkitui.min.css",
+    "watch:css": "chokidar ./**/*.css -c \"npm run build:css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "chokidar-cli": "^3.0.0",
+    "cssnano": "^7.1.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.1"
+  }
+}

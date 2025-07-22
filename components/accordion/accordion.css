@@ -1,0 +1,12 @@
+.accordion .accordion-button {
+  font-size: 14px;
+}
+.accordion-button span {
+  font-weight: 500;
+}
+.accordion-item:last-child {
+  border: none;
+}
+.accordion-header:hover .accordion-button span {
+  text-decoration: underline;
+}

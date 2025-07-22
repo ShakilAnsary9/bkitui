@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BkitUI</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bkitui/bkitui.min.css" />
+    <!-- SVG -->
+    <link rel="stylesheet" href="https://lineuisvg.netlify.app/lineuisvg.css" />
+  </head>
+  <body>
+    <div class="section">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <span>Product Information</span>
+            </button>
+          </h3>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                Our flagship product combines cutting-edge technology with sleek
+                design. Built with premium materials, it offers unparalleled
+                performance and reliability. Key features include advanced
+                processing capabilities, and an intuitive user interface
+                designed for both beginners and experts.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <span>Shipping Details</span>
+            </button>
+          </h3>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                We offer worldwide shipping through trusted courier partners.
+                Standard delivery takes 3-5 business days, while express
+                shipping ensures delivery within 1-2 business days. All orders
+                are carefully packaged and fully insured. Track your shipment in
+                real-time through our dedicated tracking portal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <span>Return Policy</span>
+            </button>
+          </h3>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                We stand behind our products with a comprehensive 30-day return
+                policy. If you're not completely satisfied, simply return the
+                item in its original condition. Our hassle-free return process
+                includes free return shipping and full refunds processed within
+                48 hours of receiving the returned item.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="./js/bkitui/bkitui.min.js"></script>
+  </body>
+</html>
