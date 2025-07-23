@@ -8561,7 +8561,7 @@ fieldset:disabled .btn {
 .bg-outline {
   --bs-bg-opacity: 1;
   border: 1px solid var(--bs-border-color);
-  color: var(--bs-black);
+  color: var(--bs-badge-color);
 }
 .bg-body-secondary {
   --bs-bg-opacity: 1;
