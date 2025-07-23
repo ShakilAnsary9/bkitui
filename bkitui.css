@@ -473,6 +473,7 @@ select:disabled {
 [type="submit"],
 button {
   -webkit-appearance: button;
+  appearance: button;
 }
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -523,6 +524,7 @@ legend + * {
 }
 [type="search"] {
   -webkit-appearance: textfield;
+  appearance: textfield;
   outline-offset: -2px;
 }
 ::-webkit-search-decoration {
@@ -538,6 +540,7 @@ legend + * {
 ::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
+  appearance: button;
 }
 output {
   display: inline-block;
@@ -2288,7 +2291,6 @@ textarea.form-control-lg {
   background-size: contain;
   border: var(--bs-border-width) solid var(--bs-border-color);
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
   print-color-adjust: exact;
 }
 .form-check-input[type="checkbox"] {
@@ -4664,7 +4666,7 @@ fieldset:disabled .btn {
   --bs-badge-padding-x: 0.65em;
   --bs-badge-padding-y: 0.35em;
   --bs-badge-font-size: 0.75em;
-  --bs-badge-font-weight: 700;
+  --bs-badge-font-weight: 500;
   --bs-badge-color: #fff;
   --bs-badge-border-radius: var(--bs-border-radius);
   display: inline-block;
@@ -8527,7 +8529,7 @@ fieldset:disabled .btn {
 }
 .bg-danger {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+  background-color: var(--bs-danger);
 }
 .bg-light {
   --bs-bg-opacity: 1;
@@ -8555,6 +8557,11 @@ fieldset:disabled .btn {
 .bg-transparent {
   --bs-bg-opacity: 1;
   background-color: transparent !important;
+}
+.bg-outline {
+  --bs-bg-opacity: 1;
+  border: 1px solid var(--bs-border-color);
+  color: var(--bs-black);
 }
 .bg-body-secondary {
   --bs-bg-opacity: 1;

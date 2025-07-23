@@ -6,6 +6,7 @@
 .alert-warning svg {
   margin-top: 0;
 }
+.alert-danger,
 .alert-danger svg {
   color: var(--bs-danger);
 }
