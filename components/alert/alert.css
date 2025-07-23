@@ -1,0 +1,30 @@
+.alert svg {
+  height: 14px;
+  width: 14px;
+  margin-top: 2px;
+}
+.alert-warning svg {
+  margin-top: 0;
+}
+.alert-danger svg {
+  color: var(--bs-danger);
+}
+.alert h6 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+.alert p {
+  margin: 0;
+}
+.alert-danger ul {
+  padding-left: 16px;
+}
+.alert-primary,
+.alert-warning,
+.alert-secondary,
+.alert-success,
+.alert-info,
+.alert-danger {
+  border-color: var(--bs-border-color);
+}
